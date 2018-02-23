@@ -43,7 +43,7 @@
   </div>
 	Bienvenido <?= $_SESSION["user"] ?> ¿Que idioma aprenderás hoy?
 	<br>
-	<a href="main.php?destroy">Destruir sesión</a>
+	<a href="main.php?destroy">Abandonar sesión</a>
 
 	 <center><div class="col-xs-6 col-md-7 center">
     <table class="table" id="tDiccionario">
