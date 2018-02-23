@@ -1,0 +1,53 @@
+body{
+background-color: #a4c2f4;
+}
+.bodyIndex{
+  background-color: #282a8f;
+}
+h1{
+  color: #a4c2f4;
+}
+.containerLogin{
+  text-align: center;
+  background-color: #a4c2f4;
+  padding: 16px;
+  width: 30%;
+  height: auto;
+  border-radius: 16px;
+  margin-top: 6%;
+}
+.error {
+  color: #ff0000; font-weight: bold;
+}
+
+.oculto{
+  display: none
+}
+
+.encabezado{
+  height: 10%;
+  background-color: #6d9eeb;
+  color: white;
+  text-align: center;
+}
+#tDiccionario {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+#tDiccionario td, #tDiccionario th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#tDiccionario tr:nth-child(even){background-color: white;}
+
+#tDiccionario tr:hover {background-color: #6d9eeb;}
+
+#tDiccionario th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6d9eeb;
+    color: white;
+}
